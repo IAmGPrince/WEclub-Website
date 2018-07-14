@@ -11,6 +11,7 @@
 *	Edit this section
 *
 * ======================================================= */
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
@@ -2578,12 +2579,17 @@ img {
 
 .img-responsive {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 200%;
+  height: 400px;
+}
+.img-respo{
+  display: block;
+  width: 50%;
+  height: 200px;
 }
 
 .img-rounded {
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .img-thumbnail {
